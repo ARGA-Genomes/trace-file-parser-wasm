@@ -4,6 +4,7 @@
   packages = with pkgs; [
     rust-analyzer
     wasm-pack
+    nodePackages.npm
   ];
 
   languages.rust.enable = true;
